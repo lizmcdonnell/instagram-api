@@ -1,0 +1,17 @@
+{
+  "name": "instagram-api",
+  "version": "1.0.0",
+  "description": "Instagram follower count API",
+  "main": "api/followers.ts",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step needed'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
